@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-task-5"
+version = "0.1.0"
+description = ""
+authors = ["Vladyslav Chaban <dma.employee.v@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_task_5"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.1.0"
+aiohttp = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
